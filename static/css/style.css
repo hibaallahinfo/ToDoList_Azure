@@ -1,0 +1,28 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+}
+
+h1 {
+    color: #333;
+}
+
+form input {
+    border-radius: 20px;
+    padding: 10px;
+}
+
+form button {
+    border-radius: 20px;
+}
+
+.list-group-item {
+    border-radius: 10px;
+    margin-bottom: 10px;
+    transition: transform 0.2s;
+}
+
+.list-group-item:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
